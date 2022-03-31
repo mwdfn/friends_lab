@@ -26,10 +26,11 @@ def likes_to_eat(person, food):
     return foundFood
 
 def add_friend(person, new_friend):
-    person ["name"].append(new_friend)
-len(2(person["friends"]))
+    person ["friends"].append(new_friend)
 
 
+def remove_friend(person, not_friend):
+    person ["friends"].remove(not_friend)
 
 # def likes_to_eat(person, food):
 #     snacks = person["favourites"]["snacks"]
